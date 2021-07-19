@@ -46,10 +46,6 @@ html {
   padding: 0.5em;
   margin-block-start: 2%;
   margin-inline: 2%;
-}
-
-a:link,
-a:visited {
   background-color: #0d72a1;
   color: white;
   text-align: center;
@@ -57,7 +53,12 @@ a:visited {
   display: inline-block;
 }
 
-a:hover,
-a:active {
+.button:hover {
   background-color: #094d6d;
+}
+
+.badge {
+  padding: 0.5em;
+  margin-block-start: 2%;
+  margin-inline: 2%;
 }
