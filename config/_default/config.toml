@@ -1,0 +1,19 @@
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+
+baseURL = "https://joeyh.dev/"
+defaultContentLanguage = "en"
+languageCode = "en"
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 0
+theme = "congo"
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[article]
+sharingLinks = true
+
+[list]
+showSummary = true
