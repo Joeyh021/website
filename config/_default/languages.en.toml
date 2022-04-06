@@ -1,11 +1,11 @@
 languageCode = "en"
 languageName = "English"
 displayName = "EN"
-isoCode = "en"
+isoCode = "en-GB"
 weight = 1
 rtl = false
 
-title = "Joeyh.dev"
+title = "joeyh.dev"
 # logo = "img/logo.jpg"
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
@@ -14,7 +14,7 @@ dateFormat = "2 January 2006"
 
 [author]
 name = "Joey Harrison"
-image = "img/joey.jpg"
+image = "img/joey.png"
 headline = "Computer Systems Engineer"
 #bio = "A little bit about myself"
 links = [

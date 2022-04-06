@@ -1,7 +1,7 @@
 ---
 title: "On Blogging"
 description: "The first blog post"
-summary: "The first blog post"
+summary: "Doing something for once, hopefully"
 date: 2022-04-06
 draft:
 ---

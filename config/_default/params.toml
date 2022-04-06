@@ -11,7 +11,7 @@ autoSwitchAppearance = true
 showAppearanceSwitcher = true
 
 enableSearch = false
-enableCodeCopy = false
+enableCodeCopy = true
 
 # mainSections = ["section1", "section2"]
 # robots = ""
@@ -23,9 +23,9 @@ showRecent = false
 
 [article]
 showDate = true
-showDateUpdated = false
+showDateUpdated = true
 showAuthor = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showDraftLabel = true
 showEdit = false
 # editURL = "https://github.com/username/repo/"
@@ -41,7 +41,7 @@ showWordCount = false
 
 [list]
 showBreadcrumbs = false
-showSummary = false
+showSummary = true
 showTableOfContents = false
 groupByYear = true
 

@@ -1,1 +1,5 @@
 .hugo_build.lock
+.DS_STORE
+
+**/public/
+**/resources/_gen/

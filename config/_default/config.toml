@@ -11,9 +11,3 @@ theme = "congo"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
-
-[article]
-sharingLinks = true
-
-[list]
-showSummary = true
