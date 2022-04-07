@@ -31,7 +31,9 @@ showEdit = false
 # editURL = "https://github.com/username/repo/"
 editAppendPath = true
 showHeadingAnchors = true
+showPagination = false
 invertPagination = false
+showReadingTime = false
 showTableOfContents = false
 showTaxonomies = false
 showWordCount = false
@@ -41,7 +43,7 @@ showWordCount = false
 showBreadcrumbs = false
 showSummary = true
 showTableOfContents = false
-groupByYear = true
+groupByYear = false
 
 [sitemap]
 excludedKinds = ["taxonomy", "term"]

@@ -3,7 +3,6 @@ title: "A Foray Into Embedded Rust"
 description: "Programming an Arduino Nano in Rust"
 summary: "Who knew how exciting blinking LEDs could be?"
 date: 2022-04-07
-draft: true
 ---
 
 **Rust on embedded devices is great.**
@@ -22,7 +21,7 @@ So, when [UWCS](https://uwcs.co.uk) were looking for people to give talks, I tho
 
 For example, there's a [trait to represent a digital output pin](https://docs.rs/embedded-hal/latest/embedded_hal/digital/v2/trait.OutputPin.html) which a new microcontroller could implement for its own output pins. Any pre-existing device drivers that use digital output pins would then work for this microcontroller. Traits, Abstraction, Polymorphism. Great stuff.
 
-![Rust Evangelism Strike Force](./rust!.webp "Do you have a moment to talk about our Lord and Saviour, Ferris?")
+![Rust Evangelism Strike Force](./rust!.jpg "Do you have a moment to talk about our Lord and Saviour, Ferris?")
 
 My Arduino is an [ATSAMD21G](https://www.microchip.com/en-us/product/ATsamd21g18), a neat little 32-bit ARM Cortex-M0+ device with 256kB of flash memory, and 32kB of SRAM, all operating at a blazing-fast 48 MHz.
 
