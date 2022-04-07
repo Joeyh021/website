@@ -40,10 +40,10 @@ showWordCount = false
 # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 
 [list]
-showBreadcrumbs = false
+showBreadcrumbs = true
 showSummary = true
 showTableOfContents = false
-groupByYear = false
+groupByYear = true
 
 [sitemap]
 excludedKinds = ["taxonomy", "term"]
