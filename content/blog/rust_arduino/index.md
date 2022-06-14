@@ -5,9 +5,11 @@ summary: "Who knew how exciting blinking LEDs could be?"
 date: 2022-04-07
 ---
 
-**Rust on embedded devices is great.**
+{{<lead>}}
+Rust on embedded devices is great.
+{{</lead>}}
 
-It makes perfect sense, because embedded software often needs to be bulletproof and Rust can do that while still providing the performance and low-level control that you need from a systems programming language. C and C++ have kind of been the only option for embedded for far too long now, and it's great that there is finally an alternative to segfaults and memory CVEs for embedded developers. I don't have half as much experience with embedded systems as I'd like, but I've played around with Arduino and Raspberry Pi stuff in the past. It's one of those things where I always want to learn/do more, but anything substantial requires hardware and time, two things that I don't have much of.
+Embedded Rust makes perfect sense, because embedded software often needs to be bulletproof and Rust can do that while still providing the performance and low-level control that you need from a systems programming language. C and C++ have kind of been the only option for embedded for far too long now, and it's great that there is finally an alternative to segfaults and memory CVEs for embedded developers. I don't have half as much experience with embedded systems as I'd like, but I've played around with Arduino and Raspberry Pi stuff in the past. It's one of those things where I always want to learn/do more, but anything substantial requires hardware and time, two things that I don't have much of.
 
 I'd bought an Arduino Nano 33 IoT, with grand intentions of Yet Another Project which never came to fruition properly. I only really got as far as flashing some Rust code onto it, and using it to blink LEDs and read a few button presses. This was still cool though, because I learned a lot about the whole embedded ecosystem in Rust along the way.
 
