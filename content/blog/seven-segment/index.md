@@ -3,7 +3,7 @@ title: "Rust, FPGAs, and Seven Segment Displays"
 date: 2022-06-14T23:06:57+01:00
 description: "My experience building and programming a simple I/O device for a RISC-V core on an FPGA."
 summary: "Getting my feet wet with FPGA design"
-draft: true
+draft: false
 ---
 
 The title of my third year project is "Programmable I/O for Flexible Interfaces in Embedded RISC-V Systems", which basically just means making something very similar to the [Programmable I/O blocks on the Raspberry Pi Pico](https://hackspace.raspberrypi.com/articles/what-is-programmable-i-o-on-raspberry-pi-pico) (which I think are insanely cool), and then integrating them with a RISC-V core to create a simple microcontroller that can interface with basically anything at fairly low power. This means a lot of work with FPGAs and Verilog/HDL which are two things I don't have much experience with.
