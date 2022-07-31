@@ -1,6 +1,6 @@
 ---
 title: "Rust, FPGAs, and Seven Segment Displays"
-date: 2022-06-14T23:06:57+01:00
+date: 2022-07-31
 description: "My experience building and programming a simple I/O device for a RISC-V core on an FPGA."
 summary: "Getting my feet wet with FPGA design"
 draft: false
