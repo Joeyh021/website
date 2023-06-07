@@ -28,5 +28,5 @@ jobs:
         run: |
           curl https://dl.min.io/client/mc/release/linux-amd64/mc --output mc
           chmod +x mc
-          mc alias set deploy https://s3.joeyh.dev $MINIO_ACCESS_KEY $MINIO_SECRET_KEY
-          mc mirror --remove --overwrite public deploy/blog && mc anonymous set download deploy/blog
+          ./mc alias set deploy https://s3.joeyh.dev $MINIO_ACCESS_KEY $MINIO_SECRET_KEY
+          ./mc mirror --remove --overwrite public deploy/blog && ./mc anonymous set download deploy/blog
