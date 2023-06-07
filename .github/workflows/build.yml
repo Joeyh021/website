@@ -21,12 +21,15 @@ jobs:
       - name: Build
         run: hugo --minify
 
+    
       - name: Minio Deploy
-        uses: mamal72/minio-perfect-deploy-action@main
-        with:
-          endpoint: minio.joeyh.dev
-          access_key: ${{ secrets.MINIO_ACCESS_KEY }}
-          secret_key: ${{ secrets.MINIO_SECRET_KEY }}
-          bucket: 'blog'
-          source_dir: 'public'
-          target_dir: '/'
+        env:
+          MINIO_ACCESS_KEY: ${{ secrets.MINIO_ACCESS_KEY }}
+          MINIO_SECRET_KEY: ${{ secrets.MINIO_SECRET_KEY }}
+        run:  |
+          curl https://dl.min.io/client/mc/release/linux-amd64/mc
+          chmod +x mc
+          mc alias set deploy s3.joeyh.dev $MINIO_ACCESS_KEY $MINIO_SECRET_KEY
+          mc mirror --remove --overwrite public deploy/blog && mc anonymous set download deploy/blog
+          
+        
