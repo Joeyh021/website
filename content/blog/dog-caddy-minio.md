@@ -29,8 +29,8 @@ Why would I want to overcomplicate something as simple as this?
   - Hosting it myself is cooler and cheaper then paying Amazon for it
 - I then need some way to serve the files from it because MinIO does not support [serving a static site like Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/userguide/WebsiteHosting.html) - enter Caddy
 - I then need some way for web traffic to reach Caddy - enter Cloudflare
-  - I don't want to fuck around with NAT/port forwarding on my shitty Virgin Media router, nor expose my public IP if I can avoid it.
-  - I'm not happy about my over-reliance on Cloudflare for all this and will probably switch to a self-hosted tunnelling proxy like [frp](https://github.com/fatedier/frp) or [rathole](https://github.com/rapiz1/rathole) in future.
+  - I don't want to fuck around with NAT/port forwarding on my shitty Virgin Media router, nor expose my public IP if I can avoid it
+  - I'm not happy about my over-reliance on Cloudflare for all this and will probably switch to a self-hosted tunnelling proxy like [frp](https://github.com/fatedier/frp) or [rathole](https://github.com/rapiz1/rathole) in future
   - I already use Cloudflare for DNS so this was the easiest solution
 
 I could have just put it on Cloudflare pages or some other free hosting service or something but that’s boring. Caddy also has a [file server directive](https://caddyserver.com/docs/caddyfile/directives/file_server) that's _objectively_ a better solution, but that's also boring.
