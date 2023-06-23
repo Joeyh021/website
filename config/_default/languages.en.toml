@@ -1,11 +1,13 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en-GB"
 weight = 1
-rtl = false
-
 title = "joeyh.dev"
+
+[params]
+isoCode = "en-GB"
+rtl = false
+displayName = ":flag-gb:"
+
 # logo = "img/logo.jpg"
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
