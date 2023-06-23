@@ -72,6 +72,6 @@ The Caddyfile for this looks something like:
 
 `minio:9000` is MinIO running in Docker on the Pi. Both Caddy and MiniIO are running in containers, so Docker’s [funky container-name DNS stuff](https://docs.docker.com/network/drivers/bridge/#differences-between-user-defined-bridges-and-the-default-bridge) can be used to refer to them. `cloudflared` also runs in a container, and is configured to send all traffic from joeyh.dev to `caddy:8080`.
 
-Easy, but not quite simple, and definitely not necessary. But, hosting my own stuff makes me an [Internet LandChad](https://landchad.net/) which is cool, and the less traffic goes to Google/Amazon/Microsoft[^1], the better.
+Easy, but not quite simple, and definitely not necessary. But, hosting my own stuff makes me an [Internet LandChad](https://landchad.net/), and the less traffic goes to Google/Amazon/Microsoft[^1], the better.
 
 [^1]: Yes, Cloudflare isn't much better, either ethically or just purely as an internet monopoly. See above for my alternative plans.
