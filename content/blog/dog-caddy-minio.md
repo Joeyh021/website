@@ -39,7 +39,7 @@ I could have just put it on Cloudflare pages or some other free hosting service 
 
 The same setup is used for this site, and for my notes site. The only reason I overcomplicated the whole dog thing is because this setup already existed for those and all the stuff was already running so it was easy. They were until recently on GitHub Pages, but hosting stuff yourself is Cool and Fun (despite the sometimes extended downtimes).
 
-You can access the raw HTML file for this page in MinIO [here](https://s3.joeyh.dev/blog/blog/joeyh-dog-caddy-minio/index.html), but that’s not much use. Caddy is set up to rewrite the paths for incoming URLs to:
+You can access the raw HTML file for this page in MinIO [here](https://s3.joeyh.dev/blog/blog/dog-caddy-minio/index.html), but that’s not much use. Caddy is set up to rewrite the paths for incoming URLs to:
 
 - Include the bucket name
 - Serve index files (joeyh.dev/blog/ returns joeyh.dev/blog/index.html)
